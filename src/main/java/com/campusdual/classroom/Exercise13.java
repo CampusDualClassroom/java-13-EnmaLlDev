@@ -5,7 +5,8 @@ public class Exercise13 {
         FuelTank ft = new FuelTank();
         ft.showDetails();
         System.out.println("Actualización capacidad");
-        ft.actualFuel = -8;
+        // linea inaccesible, el atributo ahora es privado y se usa getActualFuel()
+        //ft.actualFuel = -8;
         ft.showDetails();
     }
 }
